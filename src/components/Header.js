@@ -12,6 +12,26 @@ const Header = (props) => {
           <img src="/images/home-icon.svg" alt="Home" />
           <span>HOME</span>
         </a>
+        <a href="/search">
+          <img src="/images/search-icon.svg" alt="Search" />
+          <span>SEARCH</span>
+        </a>
+        <a href="/watchlist">
+          <img src="/images/watchlist-icon.svg" alt="Watchlist" />
+          <span>WATCHLIST</span>
+        </a>
+        <a href="/originals">
+          <img src="/images/original-icon.svg" alt="Originals" />
+          <span>ORIGINALS</span>
+        </a>
+        <a href="/movies">
+          <img src="/images/movie-icon.svg" alt="Movies" />
+          <span>MOVIES</span>
+        </a>
+        <a href="/series">
+          <img src="/images/series-icon.svg" alt="Series" />
+          <span>SERIES</span>
+        </a>
       </NavMenu>
     </Nav>
   );
